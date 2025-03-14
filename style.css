@@ -11,7 +11,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 825px;
-    /* padding: 17px 390px; */
     padding: 17px 0;
     background-color: #6C63FF;
 }
@@ -41,7 +40,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
-    /* margin: 0 390px 146px; */
     margin-bottom: 146px;
     color: #2F2E41;
 }
@@ -100,4 +98,28 @@ body {
 
 .btn:hover, .footer__link:hover {
     cursor: pointer;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        gap: 420px;
+    }
+
+    .title {
+        margin: 46px 0;
+        font-size: 36px;
+    }
+
+    .main {
+
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
 }
